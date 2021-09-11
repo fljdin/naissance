@@ -1,0 +1,37 @@
+baseurl: "https://fljd.in/naissance"
+title: "Liste de naissance"
+languageCode: "fr-fr"
+
+params:
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style: "green"
+  description: "Liste de naissance"
+  copyright: "&copy;2021 Marine & Florent Jardin"
+  sidebarAbout:
+    - Vous venez d'arriver sur la liste de naissance d'un prochain arrivant dans
+      la famille Jardin. Nous vous avans partagé notre liste de naissance pour 
+      vous permettre de participer et nous accompagner dans ce bel événement.
+    - Nous souhaitons limiter au maximum les achats neufs, aussi nous vous avons
+      rédiger un petit texte pour expliquer notre démarche.
+    - Un grand merci pour votre geste !
+  
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+  email: "florent.jardin@gmail.com"
+
+  # Nav links in the side bar
+  navlinks:
+  - name: "Page d'accueil"
+    home: true
+
+  - name: "Notre démarche"
+    url: "about/"
+
+  - name: "Nous contacter"
+    url: "contact/"
+
+  social:
+    email: "florent.jardin@gmail.com"
