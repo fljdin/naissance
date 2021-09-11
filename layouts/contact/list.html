@@ -6,9 +6,9 @@
       <div class="content-column-content">
          <h1>{{ .Title }}</h1>
          {{ .Content }}
-         {{ with .Site.Params.email }}
+         {{ with .Site.Params.endpoint }}
          <h4>Envie de nous dire quelque chose ?</h4>
-         <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
+         <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/f/{{ . }}">
            <div class="controls">
              <div class="form-group">
                <label for="name">Votre nom *</label>
