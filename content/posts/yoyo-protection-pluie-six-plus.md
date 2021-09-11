@@ -4,7 +4,7 @@ categories: [Poussette]
 image: "img/yoyo-pluie-6+.webp"
 website: ""
 
-price: 0
+price: 25
 progress: 0
 ---
 

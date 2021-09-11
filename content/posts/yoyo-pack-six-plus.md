@@ -4,6 +4,6 @@ categories: [Poussette]
 image: "img/yoyo-6+-airfrance.webp"
 website: ""
 
-price: 0
+price: 69
 progress: 0
 ---

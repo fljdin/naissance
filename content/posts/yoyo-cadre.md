@@ -5,5 +5,5 @@ image: "img/yoyo-cadre-airfrance.webp"
 website: ""
 
 price: 400
-progress: 1
+progress: 400
 ---
