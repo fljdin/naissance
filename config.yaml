@@ -9,20 +9,8 @@ params:
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style: "green"
-  description: "Liste de naissance"
-  copyright: "&copy;2021 Marine & Florent Jardin"
-  sidebarAbout:
-    - Vous venez d'arriver sur la liste de naissance d'un prochain arrivant dans
-      la famille Jardin. Nous vous avans partagé notre liste de naissance pour 
-      vous permettre de participer et nous accompagner dans ce bel événement.
-    - Nous souhaitons limiter au maximum les achats neufs, aussi nous vous avons
-      rédiger un petit texte pour expliquer notre démarche.
-    - Un grand merci pour votre geste !
   
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
+  # Contact form uses www.formspree.io
   endpoint: "xnqlwaal"
 
   # Nav links in the side bar
@@ -37,4 +25,4 @@ params:
     url: "contacter/"
 
   social:
-    email: "florent.jardin@gmail.com"
+    github: "https://github.com/mverwaerde/naissance/"
