@@ -5,6 +5,5 @@ categories: [poussette]
 progress: 1
 price: 400
 
-showonlyimage: true
 image: "img/yoyo-cadre-airfrance.webp"
 ---

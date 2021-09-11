@@ -5,6 +5,5 @@ categories: [poussette]
 progress: .0
 price: 0
 
-showonlyimage: true
 image: "img/yoyo-6+-airfrance.webp"
 ---
