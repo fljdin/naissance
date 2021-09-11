@@ -1,10 +1,10 @@
 ---
 title: "Babyzen Yoyo Car Seat"
-date: 2021-09-11
-categories: []
-progress: .0
-price: 0
+categories: [Pousette]
+image: "img/yoyo-car-seat.webp"
+website: ""
 
-image: img/yoyo-car-seat.webp
+price: 0
+progress: 0
 ---
 
