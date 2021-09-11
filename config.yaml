@@ -2,6 +2,9 @@ baseurl: "https://mverwaerde.github.io/naissance/"
 title: "Liste de naissance"
 languageCode: "fr-fr"
 
+permalinks:
+  pages: /:slug
+
 params:
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
@@ -28,10 +31,10 @@ params:
     home: true
 
   - name: "Notre démarche"
-    url: "about/"
+    url: "demarche/"
 
   - name: "Nous contacter"
-    url: "contact/"
+    url: "contacter/"
 
   social:
     email: "florent.jardin@gmail.com"
