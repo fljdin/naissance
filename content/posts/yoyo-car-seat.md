@@ -1,6 +1,6 @@
 ---
 title: "Babyzen Yoyo Car Seat"
-categories: [Pousette]
+categories: [Poussette]
 image: "img/yoyo-car-seat.webp"
 website: ""
 
