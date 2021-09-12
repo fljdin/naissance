@@ -4,6 +4,8 @@ categories: [Poussette]
 image: "img/yoyo-cadre-airfrance.webp"
 website: ""
 
-price: 400
-progress: 400
+price: 500
+progress: 500
 ---
+
+Remerciements : Patrick et Robin Verwaerde

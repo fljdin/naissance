@@ -5,8 +5,8 @@ slug: demarche
 ---
 
 Vous venez d'arriver sur la liste de naissance d'un prochain arrivant dans
-la famille Jardin. Nous vous avons partagé notre liste de naissance pour 
-vous permettre de participer et nous accompagner dans ce bel événement.
+la famille Jardin Verwaerde. Nous vous avons partagé notre liste de naissance
+pour vous permettre de participer et nous accompagner dans ce bel événement.
 
 Nous souhaitons limiter au maximum les achats neufs dans une démarche vertueuse.
 Ainsi, nous nous employons à favoriser le réemploi des équipements de maternité,

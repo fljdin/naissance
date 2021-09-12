@@ -5,5 +5,5 @@ image: "img/yoyo-0+-airfrance.webp"
 website: ""
 
 price: 40
-progress: 0
+progress: 40
 ---
