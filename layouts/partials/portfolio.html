@@ -7,7 +7,11 @@
               </a>
             {{ end }}
             <div class="box-masonry-text">
-              <h4>{{ .Title }}</h4>
+              <h4>{{ .Title }}
+              {{ with .Params.acquired }}
+                <span class="badge">acquis</span>
+              {{ end }}
+              </h4>
               <div class="progress">
                 {{ if eq .Params.Price .Params.Progress }}
                 <div class="progress-value" style="width: 100%">

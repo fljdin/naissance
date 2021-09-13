@@ -11,4 +11,5 @@ contrib:
     donate: 250
   - name: Robin V.
     donate: 250
+acquired: true
 ---

@@ -9,4 +9,5 @@ progress: 23.90
 contrib:
   - name: Anonyme
     donate: 23.9
+acquired: true
 --- 

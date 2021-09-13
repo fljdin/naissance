@@ -6,4 +6,6 @@ website: "https://www.maisonsdumonde.com/FR/fr/p/ciel-de-lit-jaune-moutarde-susp
 
 price: 59
 progress: 0
+contrib: []
+acquired: false
 ---

@@ -6,4 +6,6 @@ website: "https://www.natalys.com/kit-nouveau-ne-3-biberons-sucette-%22natural-v
 
 price: 45
 progress: 0
+contrib: []
+acquired: false
 --- 

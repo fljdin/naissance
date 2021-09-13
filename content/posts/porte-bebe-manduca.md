@@ -9,4 +9,5 @@ progress: 35
 contrib:
   - name: Marie D.
     donate: 35
+acquired: true
 ---

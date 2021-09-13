@@ -6,4 +6,6 @@ website: "https://www.natalys.com/plan--a-langer-incline-sofalange-21PSSO002MAL0
 
 price: 65
 progress: 0
+contrib: []
+acquired: false
 --- 

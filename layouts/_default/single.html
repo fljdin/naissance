@@ -2,7 +2,11 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="content-column-content">
-     <h1>{{ .Title }}</h1>
+    <h1>{{ .Title }}
+    {{ with .Params.acquired }}
+      <span class="badge">acquis</span>
+    {{ end }}
+    </h1>
   </div>
   <div class="content-column-content row">
     <div class="col-md-8">      

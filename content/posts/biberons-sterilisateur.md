@@ -6,4 +6,6 @@ website: ""
 
 price: 64
 progress: 0
+contrib: []
+acquired: false
 ---
