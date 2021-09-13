@@ -6,6 +6,9 @@ website: ""
 
 price: 500
 progress: 500
+contrib:
+  - name: Patrick V.
+    donate: 250
+  - name: Robin V.
+    donate: 250
 ---
-
-Remerciements : Patrick et Robin Verwaerde

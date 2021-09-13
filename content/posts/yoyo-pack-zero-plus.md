@@ -6,4 +6,9 @@ website: ""
 
 price: 40
 progress: 40
+contrib:
+  - name: Patrick V.
+    donate: 20
+  - name: Robin V.
+    donate: 20
 ---
