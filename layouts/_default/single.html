@@ -16,7 +16,7 @@
           <span>Montant atteint !</span>
         </div>
         {{ else }}
-        <div class="progress-value" style="width: {{mul (div .Params.Progress (.Params.Price | default 1)) 100}}%;">
+        <div class="progress-value" style="width: {{mul (div (mul .Params.Progress 1.0) (.Params.Price | default 1.0)) 100}}%;">
           <span>{{ printf "%.2f €" (mul .Params.Progress 1.0) }} / {{ printf "%.2f €" (mul .Params.Price 1.0) }}</span>
         </div>
         {{ end }}
