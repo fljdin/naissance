@@ -13,6 +13,10 @@ params:
   # Contact form uses www.formspree.io
   endpoint: "xnqlwaal"
 
+  # Personal International Bank Account Number
+  identity: "M. JARDIN FLORENT MARINE"
+  iban: "FR76 3007 6029 5830 9744 0030 075"
+
   # Nav links in the side bar
   navlinks:
   - name: "Notre démarche"

@@ -1,15 +1,59 @@
 {{ define "main" }}
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
-  <div class="row">
-    <div class="col-lg-8">
-      <div class="content-column-content">
-         <h1>{{ .Title }}</h1>
-         <a class="box-masonry-image with-hover-overlay with-hover-icon">
-          <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
-        </a>
-         {{ .Content }}
+  <div class="content-column-content">
+     <h1>{{ .Title }}</h1>
+  </div>
+  <div class="content-column-content row">
+    <div class="col-md-8">      
+      <div class="progress">
+        {{ if eq .Params.Price .Params.Progress }}
+        <div class="progress-value" style="width: 100%">
+          <span>Montant atteint !</span>
+        </div>
+        {{ else }}
+        <div class="progress-value" style="width: {{mul (div .Params.Progress (.Params.Price | default 1)) 100}}%;">
+          <span>{{ printf "%.2f €" (mul .Params.Progress 1.0) }} / {{ printf "%.2f €" (mul .Params.Price 1.0) }}</span>
+        </div>
+        {{ end }}
       </div>
+      <div class="row">
+        {{ if ne .Params.Price .Params.Progress }}
+        <div class="col-md-6">
+          <p>Faire un envoi sur Paypal avec la référence « {{ .Title }} » dans le
+            message de transaction.
+          </p>
+          <a class="btn btn-primary btn-lg" href="https://www.paypal.com/paypalme/florentmarinejardin?locale.x=fr_FR" target="_blank">Paypal</a>
+        </div>
+
+        <div class="col-md-6">
+          <p>Procéder à un virement bancaire avec vos nom et prénom, ainsi que la
+            référence « {{ .Title }} » dans le message de transaction.</p>
+            
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IBAN</h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{ .Site.Params.Identity }}</h6>
+              {{ .Site.Params.Iban }}
+            </div>
+          </div>
+        </div>
+        {{ else }}
+        <div class="col-md-12">
+          <p>Merci aux aimables contributions !</p>
+          {{ with .Params.contrib }}
+          <ul>
+            {{ range .}}
+            <li>{{ .name }} a offert {{ printf "%.2f €" (mul .donate 1.0) }}</li>
+            {{ end}}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
     </div>
   </div>
 </div>

@@ -5,5 +5,8 @@ image: "img/doudou-dino.png"
 website: "https://www.larmoiredebebe.com/fiche/P202002100065.html"
 
 price: 23.90
-progress: 0
+progress: 23.90
+contrib:
+  - name: Anonyme
+    donate: 23.9
 --- 
