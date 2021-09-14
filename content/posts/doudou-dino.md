@@ -1,7 +1,7 @@
 ---
 title: "Doudou Dino"
 categories: [Doudou]
-image: "img/doudou-dino.png"
+image: "img/doudou-dino.webp"
 website: "https://www.larmoiredebebe.com/fiche/P202002100065.html"
 
 price: 23.90
