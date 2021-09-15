@@ -4,9 +4,9 @@ categories: [Poussette]
 image: "img/yoyo-car-seat.webp"
 website: ""
 
-price: 230
+price: 180
 progress: 0
 contrib: []
-acquired: false
+acquired: true
 ---
 
