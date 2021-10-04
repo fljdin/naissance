@@ -14,12 +14,13 @@ du mobilier ou des jouets présents dans cette liste.
 
 ## Comment ça fonctionne ?
 
-Ce site a été conçu dans cette démarche minimaliste avec l'absence d'intermédiaires
-entre les proches et les futurs parents. Les prix affichés sont ceux des magasins
-ou boutiques en ligne et sont amenés à être modifiés en fonction des trouvailles
-et de leur acquisition sur les sites de vente d'occasion.
+Ce site a été conçu par nos soins dans cette démarche minimaliste, sans fournisseur
+particulier entre les proches et les futurs parents. Les prix affichés sont ceux 
+des magasins ou boutiques en ligne et sont amenés à être modifiés en fonction des
+trouvailles et de leur acquisition sur les sites de vente d'occasion.
 
-Pour chacun des souhaits de la liste, vous pouvez :
+Pour chacun des souhaits de la liste, vous pouvez procéder à un versement libre
+de plusieurs façons :
 
 * verser le montant de votre choix par [Paypal] ou virement bancaire en précisant
   dans la transaction le cadeau auquel vous voulez contribuer ;

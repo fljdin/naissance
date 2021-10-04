@@ -4,8 +4,10 @@ categories: [mobilier]
 image: "img/lit-barreaux-bebe.jpg"
 website: "https://www.chambre-enfant-bebe.fr/lit-barreaux-bebe-60x120-mila.html"
 
-price: 189
+price: 0
 progress: 0
-contrib: []
-acquired: false
+contrib:
+  - name: Aurélie
+    donate: 0
+acquired: true
 ---

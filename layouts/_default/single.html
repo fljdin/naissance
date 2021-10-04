@@ -48,7 +48,11 @@
           {{ with .Params.contrib }}
           <ul>
             {{ range .}}
-            <li>{{ .name }} a offert {{ printf "%.2f €" (mul .donate 1.0) }}</li>
+              {{ if eq .donate 0 }}
+                <li>{{ .name }} a fait un don</li>
+              {{ else }}
+                <li>{{ .name }} a fait un don de {{ printf "%.2f €" (mul .donate 1.0) }}</li>
+              {{ end }}
             {{ end}}
           </ul>
           {{ end }}
