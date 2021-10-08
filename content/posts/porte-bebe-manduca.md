@@ -1,7 +1,7 @@
 ---
 title: "Porte-bébé Manduca"
 categories: [équipement]
-image: "img/manduca-porte-bebe.jpg"
+image: "img/manduca-porte-bebe.webp"
 website: ""
 
 price: 35

@@ -1,7 +1,7 @@
 ---
 title: "Lit cabane 16 mois"
 categories: [mobilier]
-image: "img/lit-cabane-16-mois.jpg"
+image: "img/lit-cabane-16-mois.webp"
 website: ""
 
 price: 299

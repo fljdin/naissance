@@ -1,7 +1,7 @@
 ---
 title: "Arche d'éveil"
 categories: [Mobilier]
-image: "img/arche-eveil.png"
+image: "img/arche-eveil.webp"
 website: "https://www.natalys.com/arche-d-eveil-levo-hetre-21PJJO025AJV999.html"
 
 price: 99
