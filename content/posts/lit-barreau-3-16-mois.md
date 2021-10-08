@@ -7,7 +7,7 @@ website: "https://www.chambre-enfant-bebe.fr/lit-barreaux-bebe-60x120-mila.html"
 price: 0
 progress: 0
 contrib:
-  - name: Aurélie
+  - name: Aurélie J.
     donate: 0
 acquired: true
 ---
