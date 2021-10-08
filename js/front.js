@@ -1,8 +1,6 @@
 masonry();
 $(function () {
     offCanvas();
-    lightbox();
-    carousels();
     utils();
     highlightCurrentPage();
     makeImagesResponsive();
@@ -12,20 +10,6 @@ function highlightCurrentPage() {
 }
 function makeImagesResponsive() {
     $("img").addClass("img-responsive");
-}
-/* =========================================
- *  carousels
- *  =======================================*/
-function carousels() {
-    $('#main-slider').owlCarousel({
-	navigation: true, // Show next and prev buttons
-	slideSpeed: 300,
-	paginationSpeed: 400,
-	autoPlay: true,
-	stopOnHover: true,
-	singleItem: true,
-	afterInit: ''
-    });
 }
 /* =========================================
  *  masonry
@@ -39,22 +23,13 @@ function masonry() {
     });
 }
 /* =========================================
- *  Off-canvas menu
+ *  Off-canvas menu ->
  *  =======================================*/
 function offCanvas() {
     $(document).ready(function () {
         $('[data-toggle="offcanvas"]').click(function () {
             $('.row-offcanvas').toggleClass('active')
         });
-    });
-}
-/* =========================================
- *  lightbox
- *  =======================================*/
-function lightbox() {
-    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
     });
 }
 /* =========================================
