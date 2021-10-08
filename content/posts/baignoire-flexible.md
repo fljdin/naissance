@@ -4,8 +4,10 @@ categories: [mobilier]
 image: "img/stokke_flexibath_baignoire.webp"
 website: ""
 
-price: 62
+price: 0
 progress: 0
-contrib: []
+contrib:
+  - name: Alice A.
+    donate: 0
 acquired: false
 ---
