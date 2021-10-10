@@ -9,5 +9,5 @@ progress: 0
 contrib:
   - name: Aurélie J.
     donate: 0
-acquired: false
+acquired: true
 ---
