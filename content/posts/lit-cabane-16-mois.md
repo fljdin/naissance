@@ -5,7 +5,9 @@ image: "img/lit-cabane-16-mois.webp"
 website: ""
 
 price: 299
-progress: 0
-contrib: []
+progress: 103
+contrib:
+  - name: Solène J.
+    donate: 103
 acquired: false
 ---
