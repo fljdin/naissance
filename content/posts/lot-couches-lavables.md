@@ -4,8 +4,10 @@ categories: [équipement]
 image: "img/pack-decouverte-bbies-couches.webp"
 website: "https://bbies.fr/couches-lavables/produit/pack-decouverte/"
 
-price: 134.99
+price: 0
 progress: 0
-contrib: []
+contrib:
+  - name: Aurélie J.
+    donate: 0
 acquired: false
 ---
