@@ -42,10 +42,10 @@
             </div>
           </div>
         </div>
-        {{ else }}
+        {{ end }}
+        {{ with .Params.contrib }}
         <div class="col-md-12">
           <p>Merci aux aimables contributions !</p>
-          {{ with .Params.contrib }}
           <ul>
             {{ range .}}
               {{ if eq .donate 0 }}
@@ -55,7 +55,6 @@
               {{ end }}
             {{ end}}
           </ul>
-          {{ end }}
         </div>
         {{ end }}
       </div>
