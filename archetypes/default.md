@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 categories: []
-image: ""
+image: "img/"
 website: ""
 
 price: 0
