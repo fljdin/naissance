@@ -9,5 +9,5 @@ progress: 37
 contrib:
   - name: Solène J.
     donate: 37
-acquired: false
+acquired: true
 --- 
