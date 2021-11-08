@@ -9,5 +9,5 @@ progress: 0
 contrib:
   - name: Alice A.
     donate: 0
-acquired: false
+acquired: true
 ---

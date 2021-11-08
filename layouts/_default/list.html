@@ -2,7 +2,7 @@
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="grid">
     <div class="row">
-      {{ range where .Site.RegularPages "Section" "posts" }}
+      {{ range sort (where .Site.RegularPages "Section" "posts") ".Params.Progress" "asc" }}
         {{ partial "portfolio.html" . }}
       {{ end }}
     </div>
