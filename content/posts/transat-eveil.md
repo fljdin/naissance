@@ -7,5 +7,5 @@ website: "https://www.natalys.com/arche-d-eveil-levo-hetre-21PJJO025AJV999.html"
 price: 165
 progress: 0
 contrib: []
-acquired: false
+acquired: true
 --- 
