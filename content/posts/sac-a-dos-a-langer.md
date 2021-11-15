@@ -7,5 +7,5 @@ website: "https://galopino.fr/products/sac-a-dos-a-langer"
 price: 59.90
 progress: 0
 contrib: []
-acquired: false
+acquired: true
 ---
