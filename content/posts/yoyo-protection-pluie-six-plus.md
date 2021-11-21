@@ -5,8 +5,10 @@ image: "img/yoyo-pluie-6+.webp"
 website: ""
 
 price: 25
-progress: 0
-contrib: []
+progress: 25
+contrib: 
+  - name: Christel C.
+    donate: 25
 acquired: false
 ---
 
