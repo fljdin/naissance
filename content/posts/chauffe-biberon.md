@@ -11,5 +11,5 @@ contrib:
   donate: 15
 - name: Guillaume M.
   donate: 15
-acquired: false
+acquired: true
 --- 
